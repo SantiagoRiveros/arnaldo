@@ -1,0 +1,44 @@
+Ejercicio 1: Promedio de notas
+Crear un programa que:
+1. Guarde tres notas de un alumno en variables.
+2. Calcule el promedio.
+3. Muestre las tres notas y el promedio obtenido.
+Utilizar estos valores: 8, 7 y 10.
+
+Ejercicio 2: Compra en un supermercado
+Una persona compra los siguientes productos:
+- 3 paquetes de fideos a $1.200 cada uno.
+- 2 botellas de aceite a $2.500 cada una.
+- 4 paquetes de arroz a $1.000 cada uno.
+Crear un programa que calcule el subtotal de cada producto y el total de la compra. Mostrar todos los resultados por pantalla.
+
+Ejercicio 3: Viaje en automóvil
+Un automóvil recorre 350 kilómetros y consume 7 litros de combustible cada 100 kilómetros.
+
+Crear un programa que:
+1. Guarde la distancia recorrida y el consumo cada 100 kilómetros en variables.
+2. Calcule la cantidad de litros consumidos.
+3. Guarde el precio del litro de combustible, establecido en $1.500.
+4. Calcule cuánto dinero se gastó en combustible.
+5. Muestre la distancia, los litros consumidos y el costo total.
+
+Ejercicio 4: Rectángulo
+Crear un programa que guarde el ancho y el alto de un rectángulo.
+
+Utilizar estos valores:
+- Ancho: 8 metros.
+- Alto: 5 metros.
+El programa debe calcular y mostrar:
+- El perímetro del rectángulo.
+- La superficie del rectángulo.
+Recordatorio:
+- Perímetro = 2 × (ancho + alto).
+- Superficie = ancho × alto.
+
+Ejercicio 5: Sueldo mensual
+Un trabajador cobra $6.500 por hora y trabaja 6 horas por día, durante 22 días al mes.
+
+Crear un programa que calcule y muestre:
+1. El sueldo diario.
+2. El sueldo semanal, considerando 5 días de trabajo.
+3. El sueldo mensual.

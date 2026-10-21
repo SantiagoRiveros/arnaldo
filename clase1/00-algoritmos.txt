@@ -1,0 +1,52 @@
+¿Que es un algoritmo?
+
+Un algoritmo es una secuencia ordedana de pasos que permite resolver un problema o realizar una tarea.
+
+No es algo exclusivo de las computadoras. Usamos algoritmos todo el tiempo, incluso sin darnos cuenta.
+
+Por ejemplo, para preparar:
+1- Buscar el mate y la yerba
+2- Llenar el mate con yerba.
+3- Calentar agua.
+4- Colocar la bombilla.
+5- Servir el agua.
+6- Repetir el proceso hasta terminar.
+
+A -> Algoritmo -> Resultado B 
+
+Los pasos tienen un orden logico. Si servimos el agua antes de poner la yerba, el resultado no va a ser el esperado.
+
+Lo mismo sucede al programar: tenemos que indicarle a la computadora, que hacer y en que orden.
+
+Conceptos fundamentales:
+
+-Problema: aquello que queremos resolver.
+-Entrada: Los datos que necesitamos para resolverlo.
+-Proceso: las operaciones que realizamos con esos datos.
+-salida: eel resultado.
+
+Ejemplo: calcular el promedio de dos notas:
+
+Entrada: Nota 1 = 8, Nota 2 = 6
+Proceso: Sumar las notas y dividir por 2.
+Salida: Promedio = 7
+
+¿Como escribimos un algoritmo antes de programar?
+Podemos describirlo con lenguaje cotidiano o pseudocodigo.
+
+El pseudocodigo permite expresar la logica sin depender de un lenguaje de programacion especifico.
+
+Ejemplo:
+
+INICIO
+    Leer nota1
+    Leer nota2
+    promedio = (nota1 + nota2) / 2
+    Mostrar promedio
+FIN
+
+Este algoritmo no es codigo Python. Es una representacion de la solucion.
+
+Primero, pensamos como resolver el problema, y despues traducimos esa solucion a un lenguaje que la computadora
+pueda ejecutar.
+

@@ -1,0 +1,26 @@
+STRING
+cadena de caracteres, basicamente es un texto.
+Siempre esta "encerrado" en comillas, simples o dobles
+
+Ejemplo:
+
+"Hola Mundo"
+
+NUMBER
+Son datos numericos, es indiferente en python puro, si son decimales, enteros, positivos, negativos, reales, etc.
+
+Ejemplo:
+
+25
+-25
+0.32
+1.14
+
+Hay veces que se diferencian entre integer(INT) o float (enteros y decimales)
+
+BOOLEANS
+O booleanos, son tipos de datos, que admiten solo dos valores: True o False (Verdadero o falso)
+Para pensarlo de otra manera, es como el codigo binario.
+
+Binario: 1001 Verdadero-falso-falso-verdadero
+

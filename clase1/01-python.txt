@@ -1,0 +1,48 @@
+¿Que es python?
+
+Python es un lenguaje. Nos permite escribir instrucciones que la computadora
+puede ejecutar e interpretar
+
+Se utiliza entre otras cosas para:
+-Desarrollo Web y creacion de APIs
+-Automatizacion de tareas
+-Analisis de datos
+-Inteligencia Artificial
+-Desarrollo de scripts y herramientas
+
+Su sintaxis es relativamente sencilla, por lo que resulta util para aprender los fundamentos
+de programacion.
+
+--------------------------------
+
+Como ejecutamos un archivo en python?
+
+Para eso, necesitamos la terminal (tambien llamada consola)
+La terminal es nuestra forma de interactuar o ejecutar los archivos python.
+
+¿Como abro la terminal?
+
+1- Control + Ñ
+2- Ponemos el mouse en la linea divisoria de abajo, caundo se ponga
+celeste, hacemos click, mantenemos y arrastramos para arriba
+3- Vamos al menu superior -> Terminal -> New terminal
+4- En el explorador de archivos, click derecho en el archivo que queremos
+ejecutar -> Open in integrated terminal
+
+Algo importante, es que cuando abrimos la terminal, 
+probablemente este en la carpeta "base" o "raiz" de nuestro proyecto
+nosotros debemos acceder a la carpeta en si de nuestro archivo
+y recien ahi ejecutar
+
+Como navego entre carpeta?
+
+cd nombre_de_la_carpeta
+
+para ir para atras:
+cd ..
+
+TIP: Cuando un nombre de un archivo es muy largo, escribimos
+por ejemplo las 2 primeras letras y presionamos TAB
+
+¿pero COMO EJECUTAMOS?
+python nombre_del_archivo
