@@ -1,0 +1,143 @@
+Ejercicio 1 — Sistema de puntos de un videojuego
+
+Un jugador obtiene diferentes puntajes durante una partida:
+
+puntos = [120, 450, 80, 700, 320, 950, 210]
+
+Crear un programa que:
+
+Recorra todos los puntajes.
+
+Muestre cada puntaje obtenido.
+
+Cuente cuántos puntajes son superiores a 300.
+
+Calcule la suma de todos los puntos.
+
+Muestre el total acumulado y la cantidad de puntajes superiores a 300.
+
+---------------------------------------
+
+Ejercicio 2 — Consumo de agua
+
+Una familia registra su consumo diario de agua en litros durante varios días:
+
+consumo = [120, 150, 95, 180, 110, 200, 130]
+
+Crear un programa que:
+
+Calcule el consumo total registrado.
+
+Calcule el consumo promedio diario.
+
+Cuente cuántos días el consumo superó los 130 litros.
+
+Muestre un mensaje indicando si el promedio diario superó los 130 litros.
+
+---------------------------------------
+
+Ejercicio 3 — Análisis de palabras
+
+Dada la siguiente lista:
+
+palabras = ["python", "programacion", "sol", "algoritmo", "codigo", "computadora"]
+
+Crear un programa que:
+
+Recorra todas las palabras.
+
+Muestre las palabras que tengan más de 6 caracteres.
+
+Cuente cuántas palabras tienen 6 caracteres o menos.
+
+Muestre la cantidad total de palabras analizadas.
+
+Pista: se puede utilizar len() para conocer la longitud de una palabra.
+
+---------------------------------------
+
+Ejercicio 4 — Registro de edades
+
+Una organización registra las edades de las personas que participaron en una actividad:
+
+edades = [12, 18, 25, 16, 42, 67, 31, 15, 54, 21]
+
+Crear un programa que:
+
+Cuente cuántas personas son menores de 18 años.
+
+Cuente cuántas personas tienen entre 18 y 40 años, inclusive.
+
+Cuente cuántas personas tienen más de 40 años.
+
+Muestre el resultado de cada categoría.
+
+---------------------------------------
+
+Ejercicio 5 — Control de gastos personales
+
+Una persona registra sus gastos durante varios días:
+
+gastos = [4500, 12000, 2800, 7500, 15000, 3200, 9000]
+
+Crear un programa que:
+
+Calcule el gasto total.
+
+Cuente cuántos gastos fueron superiores a $8.000.
+
+Calcule cuánto dinero se gastó únicamente en los gastos inferiores o iguales a $5.000.
+
+Muestre todos los resultados.
+
+---------------------------------------
+
+Ejercicio 6 — Búsqueda de un elemento
+
+Dada la siguiente lista de códigos de productos:
+
+codigos = [104, 208, 315, 422, 517, 608, 711]
+
+Crear una variable llamada codigo_buscado y asignarle el valor 422.
+
+Utilizando un ciclo, recorrer la lista y determinar si el código existe.
+
+El programa debe mostrar:
+
+"Código encontrado" si aparece en la lista.
+
+"Código no encontrado" si no aparece.
+
+Condición: no utilizar el operador in ni el método index(). Resolver la búsqueda mediante un ciclo y una variable booleana.
+
+---------------------------------------
+
+Ejercicio 7 — Secuencia numérica
+
+Crear un programa que genere y muestre los primeros 10 términos de la siguiente secuencia:
+
+3, 6, 9, 12, 15...
+
+Después, calcular la suma de los 10 términos y mostrar el resultado.
+
+Condición: utilizar un ciclo y operaciones matemáticas. No escribir los términos manualmente.
+
+---------------------------------------
+
+Ejercicio 8 — Simulación de batería
+
+Un dispositivo comienza con una batería de 100 %. Cada ciclo de uso consume 12 puntos porcentuales de batería.
+
+Crear un programa utilizando while que:
+
+Comience con una batería de 100.
+
+Descuente 12 puntos por cada ciclo.
+
+Muestre el nivel de batería después de cada ciclo.
+
+Detenga la simulación cuando la batería llegue a cero o menos.
+
+Muestre cuántos ciclos se completaron.
+
+La batería no debe mostrarse con valores negativos: cuando el cálculo sea inferior a cero, el nivel mostrado debe ser cero.
