@@ -1,0 +1,20 @@
+Vamos a usar numpy y pandas.
+Son bibliotecas que nos aportan diferentes cosas a visual studio code.
+
+
+Para instalarlas, enla terminal:
+python -m pip install numpy pandas
+
+¿Que es una biblioteca?
+Es uin conjunto de herramientas de codigo que podemos utilizar sin tener que programarlas desde cero.
+
+Por ejemplo, ya sabe hacer esto:
+
+numeros = [10, 20, 30, 40]
+
+total = 0
+
+for numero in numeros:
+    total += numero
+
+print(total)
