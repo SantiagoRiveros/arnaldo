@@ -1,0 +1,71 @@
+import pandas as pd
+
+datos = {
+    "producto": [
+        "Celular", "Tablet", "Notebook", "Auriculares",
+        "Mouse", "Monitor", "Teclado", "Celular"
+    ],
+    "categoria": [
+        "Tecnologia", "Tecnologia", "Computacion", "Audio",
+        "Accesorios", "Computacion", "Accesorios", "Tecnologia"
+    ],
+    "precio": [
+        500000, 250000, 900000, 45000,
+        15000, 180000, 30000, 550000
+    ],
+    "cantidad": [2, 3, 1, 4, 10, 2, 5, 1],
+    "region": [
+        "Buenos Aires", "Córdoba", "Mendoza", "Buenos Aires",
+        "Córdoba", "Mendoza", "Buenos Aires", "Córdoba"
+    ]
+}
+
+df = pd.DataFrame(datos)
+
+print(df)
+
+Mostrar las columnas producto y precio.
+
+
+
+Mostrar las primeras cuatro filas.
+
+
+
+Filtrar los productos con un precio superior a $200.000.
+
+
+
+Filtrar las ventas de Buenos Aires.
+
+
+
+Mostrar los productos de Tecnología cuyo precio sea mayor o igual a $500.000.
+
+
+
+Mostrar productos de Córdoba o Mendoza.
+
+
+
+Ordenar los productos por precio de mayor a menor.
+
+
+
+Crear una columna llamada total multiplicando precio por cantidad.
+
+
+
+Crear una columna descuento que represente el 15 % del total.
+
+
+
+Crear una columna total_final restando el descuento al total.
+
+
+
+Mostrar las ventas cuyo total_final supere los $500.000.
+
+
+
+Mostrar las tres ventas con mayor total_final.
