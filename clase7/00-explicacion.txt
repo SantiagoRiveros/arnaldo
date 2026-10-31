@@ -1,0 +1,70 @@
+El analisis de datos consiste en examinar, transformar y estudiar datos para encontrar patrones
+responde rpreguntas y obtener conclusiones para tomar decisiones.
+
+Dato vs Informacion
+
+Un dato es una representacion de un hecho, caracteristica, observacion o valro.
+
+Por ejemplo:
+-22
+-"Masculino"
+-"Parana"
+-0
+-35000
+
+Por si solos esos valores pueden tener poco significado si noc onocemos su contexto
+
+Que es informacion?
+La informacion aparece cuando organizamos, procesamos e interpretamos los datos para darle
+significado
+
+por ejemplo:
+Dato: 22
+Contexto: Es la edad de una pasajero
+Informacion: El pasajero tenia 22 años al momento de su viaje.
+
+LOS DATOS SON LA MATERIA PRIMA, LA INFORMACION ES EL RESULTADO DE PROCESARLOS Y DARLES CONTEXTO.
+
+---------------------------------
+
+1- Analisis Descriptivo | ¿Que paso?
+Resume y describe los datos historicos.
+Ejemplo: ¿Cuantos pasajeros sobrevivieron del titanic? ¿Cual era la edad promedio de los pasajeros?
+Herramientas comunes: mean(), count(), value_counts(), describe()
+
+2- Analisis Diagnostico | ¿Por que paso?
+Busca explicar las causas o factores relacionados con un un resultado.
+Ejemplo: ¿Porque sobrevivieron mas pasajeros de primera clase? ¿Influyo el sexo o la edad?
+Herramientas comunes: Comparaciones, agrupaciones, correlaciones y segmentaciones.
+
+3- Analisis Predictivo | ¿Que podria pasar?
+Utiliza datos historicos para estimar resultadps futuros o desconocidos
+Ejemplo: ¿Que probabilidad tenia un pasajero de sobrevivir segun su edad, sexo y clase?
+Herramientas comunes: Estadistica, regresion, clasificacion y machine learning.
+
+4- Analisis Prescriptivo | ¿Que deberiamos hacer?
+Propone acciones o decisiones a partir del resultado del analisis.
+Ejemplo: ¿Como deberiamos distribuir los recursos de evacuacion para maximizar la cantidad 
+de persoans rescatadas?
+Herramientas comunes: optimizacion, simulaciones, modelos predictivos y reglas de decision.
+
+Tipo	        Pregunta
+Descriptivo	    ¿Cuánto vendimos este mes?
+Diagnóstico	    ¿Por qué bajaron las ventas?
+Predictivo	    ¿Cuánto esperamos vender el mes próximo?
+Prescriptivo	¿Qué acciones podemos tomar para aumentar las ventas?
+
+Analisis exploratorio de datos:
+Antes de hacer analisis mas complejos necesitamos conocer el dataset.
+
+EDA viene de Exploratory Data Analysis, o analisis exploratorio de datos.
+Es el proceso de explorar un conjunto de datos para comprender su estructura, detectar
+problemas, identificar patrones y formular preguntas.
+
+Ejemplo:
+df.head()
+df.shape
+df.info()
+df.describe()
+df.isna().sum()
+df["Sex"].value_counts()

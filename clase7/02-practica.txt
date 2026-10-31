@@ -1,0 +1,58 @@
+CSV:
+
+https://www.kaggle.com/datasets/gregorut/videogamesales
+
+Consignas
+
+Parte A — Exploración de datos
+1. Mostrar las primeras 10 filas.
+2. Mostrar la cantidad de filas y columnas.
+3. Identificar los tipos de datos de cada columna.
+4. Mostrar las estadísticas descriptivas.
+5. Identificar cuántos valores faltantes existen por columna.
+6. Calcular el porcentaje de valores faltantes por columna.
+7. Identificar qué columnas tienen mayor cantidad de valores faltantes.
+
+Parte B — Limpieza de datos
+8. Eliminar los registros que no tengan nombre de videojuego.
+9. Identificar los registros que no tengan género.
+10. Eliminar los registros que no tengan información de ventas globales.
+11. Revisar el tipo de dato de Year y convertirlo a numérico.
+12. Investigar si existen registros duplicados.
+13. Eliminar duplicados exactos, si existen.
+14. Crear una copia del DataFrame limpio llamada df_limpio.
+15. Mostrar las dimensiones del dataset antes y después de la limpieza.
+Importante: no deben eliminar todas las filas que tengan algún dato faltante sin analizar previamente qué información están perdiendo.
+
+Parte C — Análisis descriptivo
+16. ¿Cuántos videojuegos contiene el dataset después de la limpieza?
+17. ¿Cuál es el videojuego con mayores ventas globales?
+18. ¿Cuál es el promedio de ventas globales?
+19. ¿Cuál es el videojuego con menores ventas globales?
+20. ¿Cuáles son los cinco videojuegos más vendidos?
+
+Parte D — Análisis con agrupaciones
+21. Calcular cuántos videojuegos existen por género.
+22. Calcular las ventas globales totales por género.
+23. Identificar qué género tiene mayores ventas globales.
+24. Calcular las ventas globales promedio por plataforma.
+25. Identificar las cinco plataformas con mayores ventas globales.
+26. Calcular las ventas promedio por empresa distribuidora.
+27. Agrupar los videojuegos por año y calcular las ventas globales totales de cada año.
+
+Parte E — Análisis comparativo
+28. Comparar las ventas de videojuegos en Norteamérica, Europa y Japón.
+29. Identificar qué género tiene mayores ventas en Japón.
+30. Identificar qué género tiene mayores ventas en Norteamérica.
+31. Comparar las ventas globales de los videojuegos de Nintendo y Electronic Arts.
+32. ¿Qué plataforma tiene mayor cantidad de videojuegos registrados?
+
+Parte F — Interpretación de resultados
+Responder con palabras propias:
+1. ¿Qué género de videojuegos parece tener mayor éxito comercial?
+2. ¿Qué plataforma tuvo mejores resultados?
+3. ¿Qué diferencias encontrás entre el mercado japonés y el norteamericano?
+4. ¿Qué empresa parece tener mayor presencia en el mercado?
+5. ¿En qué año se registraron mayores ventas globales?
+6. ¿Qué información adicional te gustaría tener para realizar un análisis más completo?
+Desafío final: redactar cinco conclusiones que estén respaldadas por los resultados obtenidos.
