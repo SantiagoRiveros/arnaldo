@@ -1,0 +1,8 @@
+gender -> Genero
+race/ethnicity -> Grupo Etnico
+Parental level of education -> Educacion de los pádres
+lunch -> tipo de almuerzo
+test preparation course -> Si completo preparacion.
+math score -> Nota de matematica
+reading score -> nota de lectura
+writing score -> nota de escritura

@@ -1,0 +1,79 @@
+https://www.kaggle.com/datasets/gregorut/videogamesales
+
+TP — Análisis y visualización de ventas de videojuegos
+Nivel: inicial/intermedio · Python + Pandas + Matplotlib
+Dataset de Kaggle
+Video Game Sales
+
+Descargar CSV en Kaggle
+
+Archivo: vgsales.csv. Contiene información de ventas de videojuegos por plataforma, género, año y región, con más de 16.000 registros. 
+GitHub+1
+
+Objetivo
+Analizar las ventas de videojuegos mediante distintos tipos de gráficos y aprender a interpretar la información que presentan.
+1. Preparación
+Cargar las librerías y el archivo:
+import pandas as pdimport matplotlib.pyplot as pltdf = pd.read_csv("vgsales.csv")df.head()
+
+
+Explorar el dataset:
+1. Mostrar las primeras 5 filas.
+2. Mostrar la cantidad de registros y columnas.
+3. Identificar las columnas numéricas y categóricas.
+4. Comprobar si existen valores faltantes.
+2. Construcción de gráficos
+Ejercicio 1 — Gráfico de barras
+
+Mostrar los 10 géneros de videojuegos con mayor cantidad de títulos.
+
+Pista: utilizar Genre y value_counts().
+
+Ejercicio 2 — Gráfico circular
+
+Mostrar qué porcentaje de las ventas totales corresponde a cada región:
+- Norteamérica (NA_Sales)
+- Europa (EU_Sales)
+- Japón (JP_Sales)
+- Otras regiones (Other_Sales)
+Ejercicio 3 — Histograma
+
+Mostrar la distribución de las ventas globales de videojuegos (Global_Sales).
+
+Ejercicio 4 — Gráfico de líneas
+
+Mostrar cómo evolucionó la cantidad de videojuegos lanzados por año.
+
+Pista: utilizar Year, value_counts() y sort_index().
+
+Ejercicio 5 — Gráfico de dispersión
+
+Comparar las ventas de Norteamérica (NA_Sales) con las ventas de Europa (EU_Sales).
+
+¿Qué relación encontrás entre ambas regiones?
+
+Ejercicio 6 — Boxplot
+
+Mostrar la distribución de las ventas globales (Global_Sales).
+
+Identificar la mediana y observar si existen valores atípicos.
+
+Ejercicio 7 — Heatmap
+
+Crear un mapa de calor que muestre la correlación entre:
+- NA_Sales
+- EU_Sales
+- JP_Sales
+- Other_Sales
+- Global_Sales
+Utilizar Matplotlib con plt.imshow().
+3. Interpretación de los resultados
+Responder utilizando los gráficos realizados:
+1. ¿Qué género tiene más videojuegos registrados?
+2. ¿Qué región representa la mayor cantidad de ventas?
+3. ¿Cómo se distribuyen las ventas globales?
+4. ¿En qué período se lanzaron más videojuegos?
+5. ¿Existe una relación entre las ventas de Norteamérica y Europa?
+6. ¿Hay videojuegos con ventas globales excepcionalmente altas?
+7. ¿Qué regiones parecen tener mayor correlación entre sus ventas?
+4. Entrega
