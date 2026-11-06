@@ -1,0 +1,7 @@
+species -> Especie
+island -> Isla 
+culmen_length_mm -> Largo del pico
+culmen_depth_mm -> Profundidad del pico.
+flipper_length_mm -> Largo de alestas
+body_mass_g -> Peso
+sex -> Sexo

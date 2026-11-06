@@ -1,0 +1,48 @@
+csv: https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+2. Limpieza de datos
+Antes de graficar:
+1. Identificar las columnas que tienen valores nulos.
+2. Eliminar los registros que no tengan date_added.
+3. Revisar si hay registros duplicados.
+4. Investigar qué información contiene duration.
+5. No eliminar todas las filas con nulos indiscriminadamente: algunas columnas tienen muchos datos faltantes.
+
+Actividad 1 — Countplot
+
+Representar la cantidad de películas y series.
+
+Actividad 2 — Countplot con hue
+
+Representar la cantidad de películas y series según su clasificación de edad (rating).
+
+Actividad 3 — Barplot
+
+Mostrar los 10 años con mayor cantidad de títulos publicados.
+
+Pista: utilizar value_counts(), head(10) y sns.barplot().
+
+Actividad 4 — Histplot
+
+Representar la distribución de los años de lanzamiento.
+
+Actividad 5 — Boxplot
+
+Comparar los años de lanzamiento según el tipo de contenido.
+
+Actividad 7 — Pairplot
+
+Seleccionar las columnas numéricas y representar sus relaciones con sns.pairplot().
+
+Pista: probar con:
+- release_year
+- show_id (solo si lo transformaron a un identificador numérico útil; no es una variable analítica recomendable).
+En realidad, para este dataset conviene evitar show_id porque es un identificador, no una medida. Pueden utilizar release_year y agregar alguna variable numérica derivada de duration si deciden limpiarla.
+4. Preguntas de análisis
+Responder utilizando los gráficos realizados:
+1. ¿Netflix tiene más películas o series?
+2. ¿Qué clasificación de edad aparece con mayor frecuencia?
+3. ¿En qué años se estrenaron más títulos?
+4. ¿Qué diferencias encuentran entre los años de lanzamiento de películas y series?
+5. ¿Qué conclusiones pueden obtener del heatmap?
+6. ¿Qué patrones interesantes encontraron en los gráficos?

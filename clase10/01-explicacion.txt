@@ -1,0 +1,21 @@
+Seaborn es biblioteca de Python para crear graficos estadisticos.
+
+Esta construida sobre matplotlib, pero permite crear graficos mas completo scon menos codigo.
+
+plt.scatter(
+    df["culmen_length_mm"],
+    df["culmen_depth_mm"]
+)
+
+plt.show()
+
+Seaborn:
+
+sns.scatterplot(
+    data=df,
+    x="culmen_length_mm",
+    y="culmen_depth_mm"
+)
+
+plt.show()
+
